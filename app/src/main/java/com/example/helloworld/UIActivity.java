@@ -35,6 +35,7 @@ public class UIActivity extends AppCompatActivity {
     private Button mBtnJump;
     private Button mBtnFragment;
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +58,7 @@ public class UIActivity extends AppCompatActivity {
         mBtnLife=findViewById(R.id.btn_life);
         mBtnJump=findViewById(R.id.btn_jump);
         mBtnFragment=findViewById(R.id.btn_fragment);
+
         setListener();
     }
 
@@ -142,6 +144,7 @@ public class UIActivity extends AppCompatActivity {
                 case R.id.btn_fragment:
                     intent = new Intent(UIActivity.this, ContainerActivity.class);
                     break;
+
             }
             startActivity(intent);
         }

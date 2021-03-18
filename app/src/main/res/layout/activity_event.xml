@@ -5,23 +5,24 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/btn_ui"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="UI"
-        android:textAllCaps="false"/>
-
-    <Button
         android:id="@+id/btn_event"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="event"
-        android:textAllCaps="false"/>
+        android:onClick="show"
+        android:text="click me"
+        android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/btn_data"
+    <com.example.helloworld.widget.MyButton
+        android:id="@+id/btn_my"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Data"
-        android:textAllCaps="false"/>
+        android:text="my button"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handler"
+        android:textAllCaps="false" />
 </LinearLayout>

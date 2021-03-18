@@ -5,23 +5,16 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/btn_ui"
+        android:id="@+id/btn_sharepredferences"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="UI"
+        android:text="sharePrefrences"
         android:textAllCaps="false"/>
 
     <Button
-        android:id="@+id/btn_event"
+        android:id="@+id/btn_file"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="event"
-        android:textAllCaps="false"/>
-
-    <Button
-        android:id="@+id/btn_data"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Data"
+        android:text="file"
         android:textAllCaps="false"/>
 </LinearLayout>
