@@ -24,4 +24,18 @@
         android:layout_height="wrap_content"
         android:text="Data"
         android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_broad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Broad"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_animate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动画属性"
+        android:textAllCaps="false"/>
 </LinearLayout>

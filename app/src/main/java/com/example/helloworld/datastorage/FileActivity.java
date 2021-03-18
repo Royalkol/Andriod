@@ -58,7 +58,7 @@ public class FileActivity extends AppCompatActivity {
 //            fileOutputStream = openFileOutput(mFileName, MODE_PRIVATE);
             File dir=new File(Environment.getExternalStorageDirectory(),"skypan");
             if(!dir.exists()){
-                dir.mkdir();
+                dir.mkdirs();
             }
             File file=new File(dir,mFileName);
             if (!file.exists()){
@@ -85,6 +85,7 @@ public class FileActivity extends AppCompatActivity {
         try {
 //            fileInputStream = openFileInput(mFileName);
             File file =new File(Environment.getExternalStorageDirectory().getAbsolutePath()+File.separator+"skypan",mFileName);
+            fileInputStream=new FileInputStream(file);
             byte[] buff=new byte[1024];
             StringBuilder stringBuilder=new StringBuilder("");
             int len=0;
